@@ -5,10 +5,10 @@ body{
 a{
   color: white;
 }
-a: visited{
+a:visited{
   color: white;
 }
-.menu: hover{
+.menu a:hover{
   background-color: black;
 }
 .menu{
@@ -19,6 +19,10 @@ a: visited{
   margin: 0;
   padding: 0;
   width: 100%;
+}
+li{
+  float: left;
+  display: block;
 }
 #menuSelected{
   background-color: black;
