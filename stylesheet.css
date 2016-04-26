@@ -5,6 +5,7 @@ body{
 }
 .content{
   text-align: left;
+  padding: 10;
 }
 a{
   color: white;
