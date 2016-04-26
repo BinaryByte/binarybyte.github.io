@@ -20,3 +20,6 @@ a: visited{
   padding: 0;
   width: 100%;
 }
+#menuSelected{
+  background-color: black;
+}
