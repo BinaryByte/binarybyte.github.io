@@ -8,3 +8,14 @@ a{
 a: visited{
   color: white;
 }
+.menu: hover{
+  background-color: black;
+}
+.menu{
+  position: fixed;
+  overflow: auto;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
