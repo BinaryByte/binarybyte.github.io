@@ -27,7 +27,6 @@ a:visited{
 }
 
 .menu li{
-  float: left;
   display: block;
 }
 .menu li a{
