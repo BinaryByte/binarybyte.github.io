@@ -16,12 +16,12 @@ a:visited{
 .menu li a:hover{
   background-color: black;
 }
-ul {
+.menu ul {
    position: fixed;
    text-align: center;
     list-style-type: none;
     margin: 0;
-    padding: 100px;
+    padding: 0;
     overflow: hidden;
     background-color: purple;
 }
@@ -31,7 +31,7 @@ ul {
   display: block;
 }
 .menu li a{
-   display: block;
+   display: inline-block;
     color: white;
     text-align: center;
     padding: 14px 16px;
