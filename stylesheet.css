@@ -3,6 +3,10 @@ body{
   background-color: purple;
   text-align: center;
 }
+.content{
+  text-align: left;
+  width: 50%;
+}
 a{
   color: white;
 }
