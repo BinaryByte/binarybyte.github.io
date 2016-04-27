@@ -1,10 +1,4 @@
 $(document).ready(
-  $("#questiofn").fadeOut(0);
-  function(){
-    $("#questions").click(
-      function(){
-        $("#questiofn").fadeIn("slow");
-      }
-      );
+  $("#questiofn").fadeOut(1);
   }
   );
