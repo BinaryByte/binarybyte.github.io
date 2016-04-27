@@ -1,6 +1,6 @@
 $(document).ready(
   function(){
-        $(".allquestions").fadeOut(0);
+        $("#question2").fadeOut(0);
   $("#question1").click(
     function(){
       $("#question2").slideDown("slow");
