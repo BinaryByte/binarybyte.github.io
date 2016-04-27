@@ -1,6 +1,10 @@
 $(document).ready(
+  $("#questiofn").vanish();
   function(){
-    var cake = $("h4");
-    $(cake).fadeOut("slow");
+    $("#questions").click(
+      function(){
+        $("#questiofn").fadeIn("slow");
+      }
+      );
   }
   );
