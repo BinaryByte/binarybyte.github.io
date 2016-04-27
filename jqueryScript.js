@@ -1,5 +1,9 @@
 $(document).ready(
   function(){
-  
+  $(".content").click(
+    function(){
+      $(this).css("background-color","black");
+    }
+    );
   }
   );
