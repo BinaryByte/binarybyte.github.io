@@ -3,7 +3,7 @@ $(document).ready(
         $(".allquestions").fadeOut(0);
   $(".content").scroll(
     function(){
-      $(".question:hidden:first").fadeIn("slow")
+      $(".question:first").fadeIn("slow")
     }
     );
   }
