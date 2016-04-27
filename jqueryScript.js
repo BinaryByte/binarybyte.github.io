@@ -1,9 +1,9 @@
 $(document).ready(
   function(){
-        $("#question2").fadeOut(0);
-  $("#question1").click(
+        $(".allquestions").fadeOut(0);
+  $(".content").scroll(
     function(){
-      $("#question2").fadeIn("slow")
+      $(".question:hidden:first").fadeIn("slow")
     }
     );
   }
