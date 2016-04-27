@@ -1,5 +1,5 @@
 $(document).ready(
   function(){
-    document.getElementByClassName("menu").toUpperCase();
+    document.getElementsByClassName("menu").toUpperCase();
   }
   );
