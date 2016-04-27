@@ -1,3 +1,4 @@
+$("#question2").vanish();
 $(document).ready(
   function(){
   $("#question1").click(
