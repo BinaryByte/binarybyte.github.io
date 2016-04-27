@@ -1,5 +1,5 @@
 $(document).ready(
-  $(".allquestions").fadeOut(0))
+  $(".allquestions").fadeOut("fast"))
   $("#question1").click(
     function(){
       $("#question2").fadeIn("slow")
