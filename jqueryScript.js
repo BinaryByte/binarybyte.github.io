@@ -1,5 +1,5 @@
 $(document).ready(
-  $("#questiofn").vanish();
+  $("#questiofn").fadeOut(0);
   function(){
     $("#questions").click(
       function(){
