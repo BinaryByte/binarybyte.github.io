@@ -1,7 +1,7 @@
 $(document).ready(
   function(){
         $(".allquestions").fadeOut(0);
-  $(".question").click(
+  $("#question1").click(
     function(){
       $("#question2").slideDown();
     }
