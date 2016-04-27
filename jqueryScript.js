@@ -1,5 +1,5 @@
 $(document).ready(
   function(){
-    $("#question2").fadeIn("slow");
+    $("#questiofn").fadeIn("slow");
   }
   );
