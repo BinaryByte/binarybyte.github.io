@@ -39,3 +39,9 @@ a:visited{
 .menu #menuSelected{
   background-color: black;
 }
+::selection{
+  background-color: black;
+}
+::moz-selection{
+  background-color: black;
+}
