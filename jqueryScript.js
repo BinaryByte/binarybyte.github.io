@@ -3,6 +3,9 @@ $(document).ready(
   $(".content").click(
     function(){
       $(this).css("background-color","black");
+    }, 
+    function(){
+      $(this).css("background-color","purple");
     }
     );
   }
