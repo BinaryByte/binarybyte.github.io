@@ -1,5 +1,6 @@
 $(document).ready(
   function(){
-    document.getElementsByClassName("menu").toUpperCase();
+    var cheese = document.getElementsByClassName("menu")
+    cheese.toUpperCase();
   }
   );
