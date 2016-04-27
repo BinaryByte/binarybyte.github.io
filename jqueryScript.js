@@ -1,6 +1,6 @@
 $(document).ready(
   function(){
-  $(".content").click(
+  $(".content").hover(
     function(){
       $(this).css("background-color","black");
     }, 
