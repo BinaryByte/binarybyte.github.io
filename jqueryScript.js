@@ -1,5 +1,6 @@
 $(document).ready(
   function(){
-    $("h4").fadeIn("slow");
+    var cake = $("h4");
+    $(cake).fadeIn("slow");
   }
   );
