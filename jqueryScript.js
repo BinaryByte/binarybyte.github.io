@@ -1,7 +1,7 @@
 $(document).ready(
   function(){
         $(".allquestions").fadeOut(0);
-  $(".content").click(
+  $("body").click(
     function(){
       $(".question").fadeIn("slow")
     }
