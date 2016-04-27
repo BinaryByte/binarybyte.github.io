@@ -1,6 +1,6 @@
 $(document).ready(
   function(){
-    $("#question1").click(cake());
+    $("#question1").keyDown(cake());
   }
   );
 function cake(){
