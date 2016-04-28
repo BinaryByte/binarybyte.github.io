@@ -3,7 +3,7 @@ $(document).ready(
         $("#question2").fadeOut(0);
   $("#question1").click(
     function(){
-      $("#question2").slideDown("slow");
+      $("#question2").fadeOut("slow");
     }
     );
   }
